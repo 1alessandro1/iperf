@@ -54,6 +54,10 @@ None.
 
 (Note: If configure fails, try running `./bootstrap.sh` first)
 
+For a static binary, execute the following:
+
+    ./configure --enable-shared=no; make; make install
+
 Invoking iperf3
 ---------------
 
